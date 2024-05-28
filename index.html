@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Список задач</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Список задач</h1>
+      <div class="controls">
+        <input
+          type="number"
+          id="todoCount"
+          placeholder="Введіть кількість задач"
+          value="5"
+          required
+        />
+        <button id="fetchTodos">FETCH TODOS</button>
+      </div>
+      <div id="todosContainer" class="todos-container"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
